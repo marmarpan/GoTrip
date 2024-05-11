@@ -1,0 +1,129 @@
+@media (max-width: 426px) {
+    .header__nav-list{
+        visibility: hidden;
+        display: none;
+    }
+    .search{
+        visibility: hidden;
+        display: none;
+    }
+    .tree{
+        visibility: visible;
+        display: block;
+        color: white;
+    }
+    .header__banner p{
+        font-size: 30px;
+    }
+    .about img{
+        max-width: 420px;
+        max-height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .catalog{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .contacts h2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .footer__nav-list a{
+        padding: 0 20px;
+    }
+}
+@media (max-width: 321px){
+    .header__nav-list{
+        visibility: hidden;
+        display: none;
+    }
+    .search{
+        visibility: hidden;
+        display: none;
+    }
+    .tree{
+        visibility: visible;
+        display: block;
+        color: white;
+    }
+    .header__banner p{
+        font-size: 30px;
+    }
+    .goods{
+        padding: 0;
+    }
+    .about img{
+        max-width: 290px;
+        max-height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .catalog{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .contacts h2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .footer__nav-list a{
+        padding: 0 20px;
+    }
+
+}
+@media (max-width:1024px) {
+    .catalog{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+}
+
+}
+@media (max-width:786px) {
+    .catalog{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+}
+.about img{
+    width: 720px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.about .container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header__nav-list{
+    visibility: hidden;
+    display: none;
+}
+.search{
+    visibility: hidden;
+    display: none;
+}
+.tree{
+    visibility: visible;
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+.header__nav{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
